@@ -3,6 +3,8 @@
 # Define source, target, and backup directory
 backup_src=~/data_source
 backup_dest=~/backup_destination
+
+# backup file will include the date with a timestamp, so every backup would have a unique filename
 backup_file="backup_$(date +%Y%m%d_%H%M%S).tar.gz"
 
 # Create backup
